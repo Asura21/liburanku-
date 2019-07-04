@@ -137,4 +137,12 @@
 		background-size: cover !important;
 		background-position: -200px 0 !important;
 	}
+	
+	#logo-entrance{
+		margin-top: 30%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width :200px !important;
+		height: 200px !important;
+	}
 }
