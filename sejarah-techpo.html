@@ -558,37 +558,35 @@
 	<script src="jquery.ScrollMagic.min.js"></script>
 	<script src="owl.carousel.min.js"></script>
 	<script>
-		window.onload = function{
-			TweenMax.to("#box-logo",2,{
+		TweenMax.to("#box-logo",2,{
 			y:"-1000px"
-			}).delay(1);
-			TweenMax.to("#tittle-anim1",1,{
-				opacity:1
-			}).delay(1.7);
-			TweenMax.to("#tittle-anim2",1,{
-				opacity:1
-			}).delay(2.5);
-			/*CAROUSEL*/
-			var owl = $('.owl-carousel');
-		      owl.owlCarousel({
-		      	loop:true,
-			    margin:50,
-			    nav:true,
-			    autoWidth:true,
-			    responsiveClass:true,
-		        responsive: {
-		          600: {
-		            items: 1
-		          },
-		          800: {
-		            items: 2
-		          },
-		          1000: {
-		            items: 3
-		          }
-		        }
-		      });	
-			}
+		}).delay(3);
+		TweenMax.to("#tittle-anim1",1,{
+			opacity:1
+		}).delay(3.7);
+		TweenMax.to("#tittle-anim2",1,{
+			opacity:1
+		}).delay(5.5);
+		/*CAROUSEL*/
+		var owl = $('.owl-carousel');
+	      owl.owlCarousel({
+	      	loop:true,
+		    margin:50,
+		    nav:true,
+		    autoWidth:true,
+		    responsiveClass:true,
+	        responsive: {
+	          600: {
+	            items: 1
+	          },
+	          800: {
+	            items: 2
+	          },
+	          1000: {
+	            items: 3
+	          }
+	        }
+	      });
 	</script>
 </body>
 </html>
